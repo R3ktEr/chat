@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<room>
+    <messages>
+        <user>Pepe</user>
+        <message>Hola</message>
+        <time>2021-10-11 20:31:42</time>
+    </messages>
+    <messages>
+        <user>Pepe</user>
+        <message>Que tal?</message>
+        <time>2021-10-11 20:31:46</time>
+    </messages>
+    <messages>
+        <user>Cristian</user>
+        <message>Bien</message>
+        <time>2021-10-11 20:43:53</time>
+    </messages>
+    <messages>
+        <user>Cristian</user>
+        <message>He vuelto</message>
+        <time>2021-10-12 19:31:29</time>
+    </messages>
+</room>
