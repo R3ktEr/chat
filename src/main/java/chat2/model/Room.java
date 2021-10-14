@@ -14,9 +14,9 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Room implements Serializable{
 	private static final long serialVersionUID = 1L;
-	@XmlElement(name="users")
+	@XmlElement(name="user")
 	private List<String> users;
-	@XmlElement(name="messages")
+	@XmlElement(name="message")
 	private List<Message> messages;
 	
 	public Room() {

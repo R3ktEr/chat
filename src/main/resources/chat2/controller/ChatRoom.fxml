@@ -22,15 +22,17 @@
                                 <content>
                                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                                        <children>
-                                          <ListView fx:id="usersListPane" layoutX="-7.0" layoutY="99.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                                          <Button fx:id="login" layoutX="21.0" layoutY="282.0" mnemonicParsing="false" onAction="#logIn" prefHeight="31.0" prefWidth="54.0" text="Log in" AnchorPane.leftAnchor="0.0">
+                                          <ListView fx:id="usersListPane" layoutX="-7.0" layoutY="99.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                          <Button fx:id="login" layoutX="21.0" layoutY="282.0" mnemonicParsing="false" onAction="#logIn" prefHeight="31.0" prefWidth="54.0" text="Log in" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
                                              <font>
                                                 <Font size="11.0" />
-                                             </font></Button>
-                                          <Button fx:id="logout" layoutX="92.0" layoutY="282.0" mnemonicParsing="false" onAction="#logOut" prefHeight="31.0" prefWidth="57.0" text="Log Out" AnchorPane.rightAnchor="0.0">
+                                             </font>
+                                          </Button>
+                                          <Button fx:id="logout" layoutX="92.0" layoutY="282.0" mnemonicParsing="false" onAction="#logOut" prefHeight="31.0" prefWidth="57.0" text="Log Out" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
                                              <font>
                                                 <Font size="11.0" />
-                                             </font></Button>
+                                             </font>
+                                          </Button>
                                        </children>
                                     </AnchorPane>
                                 </content>
@@ -43,9 +45,9 @@
                                 <content>
                                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                                        <children>
-                                          <ListView fx:id="messageListPane" layoutX="47.0" layoutY="72.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                                          <TextField fx:id="textBar" layoutX="21.0" layoutY="280.0" onAction="#sendMessage" prefHeight="30.0" prefWidth="160.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="100.0" />
-                                          <Button fx:id="send" layoutX="301.0" layoutY="280.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="31.0" prefWidth="82.0" text="Enviar" AnchorPane.rightAnchor="0.0" />
+                                          <ListView fx:id="messageListPane" layoutX="47.0" layoutY="72.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                          <TextField fx:id="textBar" layoutX="21.0" layoutY="280.0" onAction="#sendMessage" prefHeight="30.0" prefWidth="160.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="100.0" />
+                                          <Button fx:id="send" layoutX="301.0" layoutY="280.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="31.0" prefWidth="82.0" text="Enviar" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" />
                                        </children>
                                     </AnchorPane>
                                 </content>
